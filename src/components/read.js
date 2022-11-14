@@ -8,7 +8,7 @@ import { Books } from "./books";
 export class Read extends React.Component{
     componentDidMount(){
         //Makes HTTP Request
-        axios.get('https://jsonblob.com/api/jsonblob/1027219693823606784')
+        axios.get('http://localhost:2000/api/books')
         //When Request Completed
         .then(
             //New way of Functions
